@@ -1,0 +1,14 @@
+
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(181, 213, 255);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
