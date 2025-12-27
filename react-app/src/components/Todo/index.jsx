@@ -20,7 +20,7 @@ export default function Todo() {
       setTasks(data);
       setError("");
     } catch (err) {
-      setError("Erro ao carregar tareafas");
+      setError("Erro ao carregar tarefas");
       console.log(err);
     } finally {
       setLoading(false);
@@ -40,7 +40,7 @@ export default function Todo() {
       setInputValue("");
       setError("");
     } catch (err) {
-      setError("Erro ao adicionar tarea");
+      setError("Erro ao adicionar tarefa");
       console.error(err);
     }
   };
